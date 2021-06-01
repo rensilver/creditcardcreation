@@ -14,18 +14,5 @@ namespace creditcardcreation.Models
 
         public CreditCard CreditCard { get; set; }
 
-         public Client() 
-         {
-         
-         }
-
-        public Client(string email) 
-         {
-             this.Email = email;
-         }
-
      }
-
-    
-
 }
